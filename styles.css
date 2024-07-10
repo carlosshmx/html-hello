@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Playwrite CL", cursive;
+    text-align: center;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,9,121,1) 35%, rgba(255,131,0,1) 100%);
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.20);
+    -moz-box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.20);
+    box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.20);
+}
+
+main{
+    background-color: rgb(241, 241, 241);
+    padding: 90px;
+    height: 100%;
+}
+
+.card{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500 ;
+    margin: 0 auto 15px auto;
+    background: white;
+    width: 500px;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.28);
+    -moz-box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.28);
+    box-shadow: -2px 1px 22px 5px rgba(0,0,0,0.28);
+}
+
+.card img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-desc{
+    display: flex;
+    padding: 10px;
+}
+
+.card-desc p{
+    width: 85%;
+}
+
+.card-icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 30px;
+}
+
+.card-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
